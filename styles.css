@@ -1,2 +1,78 @@
 
 /* Your CSS Code here. */
+
+body{
+	 background-color: rgb(176, 200, 221);
+	font-family: Arial, sans-serif;
+	
+
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+#image img{
+     
+	width: 450px; /* or set a specific width like 300px */
+    height: auto; /* maintain the aspect ratio, or use a specific value like 200px */
+  display: block; /* removes any space below the image */
+  margin: 0 auto; /* centers the image horizontally if the div has more width */
+  border-radius:5px;
+}
+
+#projects{
+	border:2px solid black;
+	margin: 10px auto;
+}
+
+#projects ul{
+	list-style-type: none;
+	text-align: center;
+	margin:30px auto;
+	
+	
+}
+
+#projects li{
+	 
+      list-style-type: none;
+      margin: 10px 0;
+   
+}
+
+#skills{
+	border:2px solid black;
+	margin: 10px auto;
+}
+
+#skills ul{
+	list-style-type: none;
+	text-align: center;
+	margin:30px auto;
+	
+}
+#skills li{
+	  list-style-type: none;
+      margin: 10px 0;
+}
+
+
+
+#linkedin {
+  text-align: center; /* This will center the content inside the #linkedin container */
+	border: 2px solid black;
+}
+
+#linkedin a {
+  display: inline-block; /* Make <a> behave like a block-level element */
+  text-align: center; /* Optional: This would align any text inside the <a> tag */
+}
+
+
+
+
