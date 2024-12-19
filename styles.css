@@ -66,6 +66,7 @@ h2{
 #linkedin {
   text-align: center; /* This will center the content inside the #linkedin container */
 	border: 2px solid black;
+	margin:10px auto;
 }
 
 #linkedin a {
